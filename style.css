@@ -7,6 +7,17 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+:root{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -78,6 +89,14 @@ section .title::after{
 }
 
 /* navbar styling */
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul{
+    text-align: right;
+}
+
 .navbar{
     position: fixed;
     width: 100%;
