@@ -34,19 +34,8 @@ $(document).ready(function(){
     });
 
     // typing text animation script
-    var icon=document.getElementById("icon");
-    icon.onclick = function(){
-        document.body.classList.toggle("dark-theme");
-        if(document.body.classList.contains("dark-theme")){
-            icon.src = "images\sun.png";
-        }else{
-            icon.src="images\moon.png";
-        }
-    }
-
-
     var typed = new Typed(".typing", {
-        strings: ["Front end Developer"],
+        strings: ["Frontend Developer"],
         typeSpeed: 150,
         backSpeed: 100,
         loop: true
