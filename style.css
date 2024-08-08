@@ -184,7 +184,7 @@ nav ul{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://i.ibb.co/vq9nFvq/img1.jpg") no-repeat center;
+    background: linear-gradient(45deg, #010758, #490d61);
     height: 100vh;
     color: #fff;
     min-height: 500px;
