@@ -11,10 +11,6 @@
     --primary-color: linear-gradient(45deg, #010758, #490d61);;
     --secondary-color: linear-gradient(45deg, #010758, #490d61);;
 }
-.dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
-}
 
 html{
     scroll-behavior: smooth;
