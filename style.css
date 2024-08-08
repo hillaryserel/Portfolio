@@ -16,8 +16,6 @@
     --secondary-color: #fff;
 }
 
-
-
 html{
     scroll-behavior: smooth;
 }
@@ -557,7 +555,7 @@ nav ul{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: linear-gradient(45deg, #010758, #490d61);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
